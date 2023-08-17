@@ -1,0 +1,295 @@
+.header {
+  background: #69F0AE;
+  font-size: 64px;
+}
+
+.footer {
+  background: #69F0AE;
+  font-size: 64px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* helper */
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* body */
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+/* nav */
+.nav {
+  padding-top: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* banner */
+.banner {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.banner-text {
+  width: 636px;
+}
+
+.banner-text h2 {
+  font-size: 64px;
+}
+
+.banner-text h1 {
+  font-size: 128px;
+  color: #00FFA3;
+  align-self: flex-end;
+}
+
+.banner-text a {
+  color: #000000;
+  background-color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+/* introduction */
+.introduction {
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.introduction-left-content {
+  width: 526px;
+  margin-top: 160px;
+}
+
+.introduction-left-content h3 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+
+.introduction-left-content p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.introduction-right-content {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+/* aboutme */
+.aboutme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.aboutme-left-content {
+  width: 636px;
+  margin-top: 160px;
+  margin-right: 134px;
+  margin-bottom: 160px;
+}
+
+.aboutme-right-content {
+  width: 526px;
+  margin-top: 160px;
+}
+
+.aboutme-right-content h3 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+
+.aboutme-right-content p {
+  font-size: 24px;
+}
+
+.card {
+  width: calc(50% - 12px);
+  padding: 16px;
+  border: solid #E3E3E3 1px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+/* contactme */
+.contactme-left-content {
+  margin-top: 129px;
+  margin-bottom: 129px;
+  margin-right: 113px;
+}
+
+.contactme-left-content h3 {
+  font-size: 64px;
+  margin-right: 16px;
+}
+
+.contactme-right-content {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.contactme-left-content img {
+  width: 100px;
+  height: 100px;
+  vertical-align: bottom;
+}
+
+.contactme-right-content img {
+  margin-right: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  width: 162px;
+  height: 162px;
+}
+
+.contactme-right-content img:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
+}
+
+/* my Projects */
+.myprojects {
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.myprojects h3 {
+  margin-left: auto;
+  width: 746px;
+  font-size: 64px;
+}
+
+.myprojects a {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+}
+
+.myproject-seemore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* footer */
+.footer p {
+  padding: 40px;
+  text-align: center;
+}/*# sourceMappingURL=all.css.map */
